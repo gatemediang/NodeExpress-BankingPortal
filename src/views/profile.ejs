@@ -1,7 +1,7 @@
 <%- include('header') %>
 <h1>Profile</h1>
-<div>
-  <% if(user != null){%>
+<div class="container">
+  <% if(user){%>
   <p><%= user.name %></p>
   <p><%= user.username %></p>
   <p><%= user.email %></p>
